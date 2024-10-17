@@ -1,5 +1,5 @@
 $(function(){
-
+  // табы-переключатели подклучены
   $('.present__items .tab').on('click', function(event) {
     var id = $(this).attr('data-id');
       $('.present__items').find('.tab-item').removeClass('active-tab').hide();
@@ -9,6 +9,7 @@ $(function(){
       return false;
   });
 
+	// галлерея подклучена на увеличение
   $('.gallery__inner-1').magnificPopup({
 		delegate: 'a',
 		type: 'image',
