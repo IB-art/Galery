@@ -114,3 +114,20 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* @font-face {
+  font-family: "Magnolia Script";
+  src: url("../fonts/ofont.ru_Magnolia.ttf") format("truetype");
+  src: url("../fonts/ofont.ru_Magnolia.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: "Marck Script";
+  src: url("../fonts/MarckScript-Regular.ttf") format("truetype");
+  src: url("../fonts/MarckScript-Regular.woff2") format("woff2"),
+    url("../fonts/MarckScript-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
